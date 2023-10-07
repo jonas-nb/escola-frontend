@@ -1,0 +1,21 @@
+.item-link {
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  background-color: #468189;
+  gap: 5px;
+  font-size: 15px;
+  box-shadow: 0 4px 4px rgba(35, 45, 49, 0.2);
+}
+.item-link:hover {
+  background-color: #7ccfda;
+}
+
+.icon {
+  font-size: 20px;
+}

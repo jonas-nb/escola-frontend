@@ -1,0 +1,32 @@
+.title {
+  height: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #a0ffff;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-grid {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.my-grid > * {
+  width: 22rem;
+}
+
+.my-grid-renda {
+  margin: auto;
+}
+.my-grid-renda > * {
+  width: 22rem;
+}
